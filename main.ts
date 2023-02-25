@@ -1,5 +1,4 @@
-const server = Deno.listen({ port: 8080 })
-console.log(`HTTP webserver running.  Access it at:  http://localhost:8080/`)
+const server = Deno.listen({ port: 443 })
 
 // Connections to the server will be yielded up as an async iterable.
 for await (const conn of server) {
